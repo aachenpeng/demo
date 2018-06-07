@@ -15,9 +15,14 @@ public class Demo {
 		while(true){
 			System.out.println("输入你是煞笔：");
 			String next = sc.nextLine();
-			if(next.equals("1")){
-				System.exit(0);
-			}
+			get(next);
+		}
+	}
+	
+	//自定义方法
+	public static void get(String input){
+		if(input.equals("1")){
+			System.exit(0);
 		}
 	}
 }
