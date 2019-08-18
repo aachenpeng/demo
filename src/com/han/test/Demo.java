@@ -13,7 +13,7 @@ public class Demo {
 		//键盘输入
 		Scanner sc = new Scanner(System.in);
 		while(true){
-			System.out.println("输入你是煞笔：");
+			System.out.println("输dddd");
 			String next = sc.nextLine();
 			get(next);
 		}
